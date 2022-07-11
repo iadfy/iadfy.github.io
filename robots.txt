@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iadfy.github.io/sitemap.xml
+Sitemap: https://iadfy.github.io/blog/sitemap.xml
