@@ -1,5 +1,5 @@
 site_name: iadfy의 블로그
-site_url: https://iadfy.github.io/blog
+site_url: https://iadfy.github.io/
 theme : material
 use_directory_urls: false
 
