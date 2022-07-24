@@ -1,5 +1,11 @@
 site_name: iadfy의 블로그
 site_url: https://iadfy.github.io/
+
+nav:
+  - Home: index.md
+  - 일 잘하는 사람이 고과는 그만큼 잘 받지 못하는 이유: why_excellent_person_cant_get_score.md
+  - 상사가 부하직원을 칭찬하지 않는 이유: boss_always_blame.md
+
 theme : material
 use_directory_urls: false
 
