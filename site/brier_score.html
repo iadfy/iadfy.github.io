@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://iadfy.github.io/index.html">
+        <link rel="canonical" href="https://iadfy.github.io/brier_score.html">
       
       <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.14">
     
     
       
-        <title>iadfy의 블로그</title>
+        <title>브라이어 지수 - iadfy의 블로그</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              브라이어 지수
             
           </span>
         </div>
@@ -178,21 +178,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
         Home
       </a>
-      
     </li>
   
 
@@ -265,12 +255,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -291,11 +283,82 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="brier_score.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          브라이어 지수
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="brier_score.html" class="md-nav__link md-nav__link--active">
         브라이어 지수
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    브라이어 지수
+  </a>
+  
+    <nav class="md-nav" aria-label="브라이어 지수">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 브라이어 지수란?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 이게 왜 필요할까요?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 어떻게 계산하나요?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 뭐에 쓰나요?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -324,8 +387,55 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    브라이어 지수
+  </a>
+  
+    <nav class="md-nav" aria-label="브라이어 지수">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 브라이어 지수란?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 이게 왜 필요할까요?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 어떻게 계산하나요?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 뭐에 쓰나요?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -339,8 +449,88 @@
                 
 
 
-<h1 id="1">1. 이것은 왜 그럴까? 계산해보기</h1>
-<h1 id="2">2. 사건을 예측해보고, 브라이어 지수로 환산해보기</h1>
+  <h1>브라이어 지수</h1>
+
+<h2 id="_1">브라이어 지수</h2>
+<p>브라이어 지수라는 개념을 <em>신호와 소음</em> 책에서 봤는지 <em>틀리지 않는 법</em> 책에서 봤는지 기억이 안나는데, 아무튼 검색해보니 한글 검색결과가 몇 없어서 제가 씁니다.</p>
+<h3 id="1">1. 브라이어 지수란?</h3>
+<p>"예측이 얼마나 잘 맞았는지"를 표현하는 점수입니다. 0에 가까울 수록 잘 맞은 예측이고, 1에 가까울 수록 망한 예측입니다. </p>
+<h3 id="2">2. 이게 왜 필요할까요?</h3>
+<p>일기예보의 예를 들어보겠습니다. <a href="https://data.kma.go.kr/stcs/grnd/grndRnDay.do?pgmNo=156에">https://data.kma.go.kr/stcs/grnd/grndRnDay.do?pgmNo=156에</a> 들어가보면 연도별 서울 강수일수가 나오는데, 대체로 100일 조금 넘는 것 같습니다. 그러면, 그냥 무조건 비가 안온다고만 해도 365일 중에 265일 정도를 맞추는 거니까 72%의 적중률을 보이겠네요. 꽤 괜찮은 적중률이지만 일기예보로써의 기능은 못하잖아요? 비가 온다고 했을 때 오고, 안온다고 했을 때 안오는 걸 72% 수준으로 맞추는 거랑 그냥 무조건 안온다고 해서 72%인 거랑은 분명 다르니까요. </p>
+<p>그냥 적중률로만 봐서는 안보이는 이 차이가 브라이어 지수로는 보입니다.</p>
+<h3 id="3">3. 어떻게 계산하나요?</h3>
+<p><span class="arithmatex"><span class="MathJax_Preview">\text{브라이어 지수} = {1 \over N} \displaystyle\sum_{t=1}^{N}(\text{t번째 예측 확률}-\text{t번째의 사건값 (사건이 일어났으면 1, 안일어났으면 0)})^2</span><script type="math/tex">\text{브라이어 지수} = {1 \over N} \displaystyle\sum_{t=1}^{N}(\text{t번째 예측 확률}-\text{t번째의 사건값 (사건이 일어났으면 1, 안일어났으면 0)})^2</script></span></p>
+<table>
+<thead>
+<tr>
+<th align="center">상황</th>
+<th>N</th>
+<th>t번째 예측 확률들</th>
+<th>t번째의 사건값</th>
+<th>브라이어 지수</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">내일 비가 10% 확률로 올 거라고 예측했는데 비가 안내림</td>
+<td>1</td>
+<td>0.1</td>
+<td>0</td>
+<td>0.01</td>
+</tr>
+<tr>
+<td align="center">내일 비가 30%확률로 올 거라고 예측했는데 비가 안내림</td>
+<td>1</td>
+<td>0.3</td>
+<td>0</td>
+<td>0.09</td>
+</tr>
+<tr>
+<td align="center">내일 비가 50% 확률로 올 거라고 예측했는데 비가 안내림</td>
+<td>1</td>
+<td>0.5</td>
+<td>0</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td align="center">내일 비가 70% 확률로 올 거라고 예측했는데 비가 안내림</td>
+<td>1</td>
+<td>0.7</td>
+<td>0</td>
+<td>0.49</td>
+</tr>
+<tr>
+<td align="center">내일 비가 30% 확률로 올 거라고 예측했는데 비가 내림</td>
+<td>1</td>
+<td>0.3</td>
+<td>1</td>
+<td>0.49</td>
+</tr>
+<tr>
+<td align="center">내일 비가 30% 확률로 올 거라고 예측했는데 비가 안내렸고, 모레 비가 70% 확률로 올 거라고 예측했는데 비가 내림</td>
+<td>2</td>
+<td>0.3<br/>0.7</td>
+<td>0<br/>1</td>
+<td>0.09</td>
+</tr>
+<tr>
+<td align="center">내일 비가 30% 확률로 올 거라고 예측했는데 비가 내렸고, 모레 비가 10% 확률로 올거라고 예측했는데 비가 안왔고, 글피 비가 90% 확률로 올 거라고 예측했는데 비가 내림</td>
+<td>3</td>
+<td>0.3<br/>0.1<br/>0.9</td>
+<td>1<br/>0<br/>1</td>
+<td>0.17</td>
+</tr>
+<tr>
+<td align="center">365일 동안 비가 0% 확률로 올 거라고 예측했는데 100일까지만 비가 내리고 그 다음에 계속 안내림</td>
+<td>365</td>
+<td>0</td>
+<td>t=100까지 1, 그다음엔 0</td>
+<td>0.27</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4">4. 뭐에 쓰나요?</h3>
+<p>내가 예전에 했던 예측이 얼마나 정확했었는지를 사후평가 할 수 있습니다. 맨날 비가 안올거라고 우기는 것보다는, 내일은 어느정도 올 것 같고 모레는 어느정도 올 것 같은지를 예측하는 게 더 의미있으니까요. **사후**라는 말에서 알 수 있듯 베이즈 추론에 유용하게 쓰이는데, 이것은 다음에 다루고 저는 브라이어 지수로 주식 매매에서 이익을 볼 수 있을지 확인 중입니다. 결론이 나면 이것도 글을 올리겠습니다.</p>
 
               
             </article>
@@ -353,21 +543,21 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-      
         
-        <a href="why_excellent_person_cant_get_score.html" class="md-footer__link md-footer__link--next" aria-label="Next: 일 잘하는 사람이 고과는 그만큼 잘 받지 못하는 이유" rel="next">
+        <a href="boss_always_blame.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: 상사가 부하직원을 칭찬하지 않는 이유" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
-                Next
+                Previous
               </span>
-              일 잘하는 사람이 고과는 그만큼 잘 받지 못하는 이유
+              상사가 부하직원을 칭찬하지 않는 이유
             </div>
           </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
         </a>
+      
       
     </nav>
   

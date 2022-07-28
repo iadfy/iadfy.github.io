@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://iadfy.github.io/index.html</loc>
-         <lastmod>2022-07-24</lastmod>
+         <lastmod>2022-07-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iadfy.github.io/boss_always_blame.html</loc>
-         <lastmod>2022-07-24</lastmod>
+         <lastmod>2022-07-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iadfy.github.io/brier_score.html</loc>
+         <lastmod>2022-07-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iadfy.github.io/why_excellent_person_cant_get_score.html</loc>
-         <lastmod>2022-07-24</lastmod>
+         <lastmod>2022-07-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
